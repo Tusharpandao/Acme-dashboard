@@ -11,9 +11,6 @@ importers:
       '@heroicons/react':
         specifier: ^2.1.4
         version: 2.1.4(react@19.0.0-rc-f38c22b244-20240704)
-      '@next/font':
-        specifier: ^14.2.7
-        version: 14.2.7(next@14.2.7(react-dom@19.0.0-rc-f38c22b244-20240704(react@19.0.0-rc-f38c22b244-20240704))(react@19.0.0-rc-f38c22b244-20240704))
       '@tailwindcss/forms':
         specifier: ^0.5.7
         version: 0.5.7(tailwindcss@3.4.4)
@@ -126,11 +123,6 @@ packages:
 
   '@next/env@14.2.7':
     resolution: {integrity: sha512-OTx9y6I3xE/eih+qtthppwLytmpJVPM5PPoJxChFsbjIEFXIayG0h/xLzefHGJviAa3Q5+Fd+9uYojKkHDKxoQ==}
-
-  '@next/font@14.2.7':
-    resolution: {integrity: sha512-0WvqMw4Ynwtj5ftyKmnpVH3tam5U/hg0D9EPdbMlv1hvoeSyAK+kkxQkCSEH8G2Jgt5/lTk6FLdqZ+5gnw+0aw==}
-    peerDependencies:
-      next: '*'
 
   '@next/swc-darwin-arm64@14.2.7':
     resolution: {integrity: sha512-UhZGcOyI9LE/tZL3h9rs/2wMZaaJKwnpAyegUVDGZqwsla6hMfeSj9ssBWQS9yA4UXun3pPhrFLVnw5KXZs3vw==}
@@ -1093,10 +1085,6 @@ snapshots:
       '@types/pg': 8.6.6
 
   '@next/env@14.2.7': {}
-
-  '@next/font@14.2.7(next@14.2.7(react-dom@19.0.0-rc-f38c22b244-20240704(react@19.0.0-rc-f38c22b244-20240704))(react@19.0.0-rc-f38c22b244-20240704))':
-    dependencies:
-      next: 14.2.7(react-dom@19.0.0-rc-f38c22b244-20240704(react@19.0.0-rc-f38c22b244-20240704))(react@19.0.0-rc-f38c22b244-20240704)
 
   '@next/swc-darwin-arm64@14.2.7':
     optional: true
